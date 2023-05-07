@@ -8,8 +8,8 @@ def index():
         email = request.form['email']
         with open('emails.txt', 'a') as f:
             f.write(email + '\n')
-    return render_template('success.html', email=email)
-  return render_template('index.html')
+        return render_template('success.html', email=email)
+    return render_template('index.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
