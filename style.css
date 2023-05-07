@@ -1,0 +1,17 @@
+.background {
+    background-color: #6fb1ff; /* 青系の色に変更 */
+ }
+
+  h1 {
+    font-size: 32px;
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  input[type="text"] {
+    border: 2px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  
